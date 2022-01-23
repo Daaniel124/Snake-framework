@@ -4,24 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Snake
+namespace Snake_framework
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int choice = Menu.Start();
-            if (choice == 1)
+            while (true)
             {
-                Game.MainGame();
-            }
-            if (choice == 2)
-            {
-
-            }
-            if (choice == 3)
-            {
-                Environment.Exit(0);
+                int choice = Menu.Start();
+                if (choice == 1)
+                {
+                    Game.MainGame();
+                }
+                if (choice == 2)
+                {
+                    ViewResults.Results();
+                }
+                if (choice == 3)
+                {
+                    Environment.Exit(0);
+                }
             }
         }
     }

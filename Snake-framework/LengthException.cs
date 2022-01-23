@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Snake
+namespace Snake_framework
 {
     public class LengthException : Exception
     {
@@ -13,7 +13,7 @@ namespace Snake
         {
             get
             {
-                return "Введите минимум 3 символа";
+                return "Enter at least 3 characters";
             }
         }
     }

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Snake
+namespace Snake_framework
 {
 	class Walls
 	{

@@ -5,13 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace Snake
+namespace Snake_framework
 {
     class Game
     {
         public static void MainGame()
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             //Console.SetBufferSize(80, 25);
+            Sounds mu = new Sounds();
+            mu.Play();
 
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;

@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 using System.IO;
 
 
-namespace Snake
+namespace Snake_framework
 {
     class GameOver : Score
     {
         public void WriteGameOver()
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
             Walls walls = new Walls(80, 25);

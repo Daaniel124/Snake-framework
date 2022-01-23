@@ -5,12 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Snake
+namespace Snake_framework
 {
     class Menu
     {
         public static int Start()
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.Clear();
+
+            string music = "title";
+            Sounds mu = new Sounds();
+            mu.Play(music);
+
+            Console.ForegroundColor = ConsoleColor.White;
             Walls walls = new Walls(80, 25);
             walls.Draw();
 
