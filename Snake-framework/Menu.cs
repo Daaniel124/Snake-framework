@@ -14,9 +14,9 @@ namespace Snake_framework
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.Clear();
 
-            string music = "title";
+            /*string music = "title";
             Sounds mu = new Sounds();
-            mu.Play(music);
+            mu.Play(music);*/
 
             Console.ForegroundColor = ConsoleColor.White;
             Walls walls = new Walls(80, 25);

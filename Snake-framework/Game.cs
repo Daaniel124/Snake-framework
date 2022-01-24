@@ -14,8 +14,8 @@ namespace Snake_framework
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             //Console.SetBufferSize(80, 25);
-            Sounds mu = new Sounds();
-            mu.Play();
+            /*Sounds mu = new Sounds();
+            mu.Play();*/
 
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
