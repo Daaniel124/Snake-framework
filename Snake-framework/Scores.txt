@@ -1,8 +1,5 @@
-10 der
 6 den
-6 Nikita
+5 Nik
 1 den2
 3 den3
 0 fgh
-6 678
-34 24.01
